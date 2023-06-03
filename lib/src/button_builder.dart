@@ -32,7 +32,7 @@ class SignInButtonBuilder extends StatelessWidget {
   final Color highlightColor;
 
   /// onPressed should be specified as a required field to indicate the callback.
-  final Function onPressed;
+  final VoidCallback? onPressed;
 
   /// padding is default to `EdgeInsets.all(3.0)`
   final EdgeInsets? padding;
